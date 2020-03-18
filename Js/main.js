@@ -11,7 +11,7 @@ const inputValue = () => {
 
 
 const calculate_dollar = () => {
-  let converted_naira_rate = 365.00 * dollar_input.value;
+  let converted_naira_rate = 366.50 * dollar_input.value;
   // console.log(converted_naira_rate);
   naira_input.value = converted_naira_rate;
 }
