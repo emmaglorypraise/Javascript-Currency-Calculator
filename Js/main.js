@@ -25,19 +25,5 @@ const calculate_naira = () => {
 dollar_input.addEventListener("input", calculate_dollar);
 naira_input.addEventListener("input", calculate_naira);
 
-// calls in api 
-const api_url = "https://api.exchangeratesapi.io/latest?base=USD";
-
-fetch(api_url)
-.then(res => {
-  return res.json()
-})
-.then(data => {
-   return data;
-  ;
-})
-.catch(error => {
-  return "error";
-})
 
 
